@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b12">
+    <meta name="description" content="Mohammed Nashit's portfolio — student and aspiring developer.">
+    <title>Mohammed Nashit | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">Nashit<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Mohammed <span>Nashit</span></h1>
+
+                <h2 class="hero-subtitle">
+                    Student &amp; <span id="typingText">Aspiring Developer</span>
+                </h2>
+
+                <p class="hero-description">
+                    I'm a student passionate about technology, programming,
+                    and building projects that turn ideas into reality.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+
+                    <a href="resume.pdf" target="_blank" rel="noopener"
+                       class="btn btn-secondary">View Resume</a>
+
+                    <a href="resume.pdf" download class="btn btn-secondary">
+                        Download Resume
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/mohdnashit"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/in/mohammed-nashit-a6a728369/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <!-- Guest avatar: no personal photo required -->
+            <div class="hero-visual reveal">
+                <div class="avatar-orbit orbit-one"></div>
+                <div class="avatar-orbit orbit-two"></div>
+
+                <div class="hero-avatar" aria-label="Guest profile icon">
+                    <svg viewBox="0 0 24 24" role="img"
+                         aria-label="Guest avatar">
+                        <circle cx="12" cy="8" r="4"></circle>
+                        <path d="M4 21a8 8 0 0 1 16 0"></path>
+                    </svg>
+                </div>
+
+                <span class="floating-dot dot-one"></span>
+                <span class="floating-dot dot-two"></span>
+                <span class="floating-dot dot-three"></span>
+
+                <div class="avatar-label">
+                    <span class="status-dot"></span>
+                    Always learning
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section content-section reveal" id="about">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <div class="about-card">
+                <p>
+                    I'm Mohammed Nashit, a student and aspiring developer
+                    interested in programming, software development, and
+                    solving real-world problems through technology.
+                </p>
+                <p>
+                    I enjoy learning new technologies and building projects
+                    that help me improve my skills through practical experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section content-section reveal" id="projects">
+            <p class="eyebrow">WHAT I'VE BUILT</p>
+            <h2 class="section-title">My <span>Projects</span></h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Counter App</h3>
+                    <p>A simple counter application to practice interactive UI development.</p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit/basic-counter-app"
+                           target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Rock Paper Scissors</h3>
+                    <p>A classic game built with interactive choices and game logic.</p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit/rock-paper-scissor"
+                           target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>Personal Portfolio</h3>
+                    <p>A personal website showcasing my background, skills, and projects.</p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit"
+                           target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">04</div>
+                    <h3>Credit Scoring Model</h3>
+                    <p>A machine learning project exploring credit scoring using data.</p>
+                    <div class="tags">
+                        <span>Python</span><span>Pandas</span><span>Machine Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit/CodeAlpha_Credit_Scoring_Model"
+                           target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">05</div>
+                    <h3>Handwritten Character Recognition</h3>
+                    <p>A project focused on recognizing handwritten characters using machine learning.</p>
+                    <div class="tags">
+                        <span>Python</span><span>Machine Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit/CodeAlpha_Handwritten_Character_Recognition"
+                           target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">06</div>
+                    <h3>NearbyPay</h3>
+                    <p>A payment concept designed to help users discover nearby payment receivers.</p>
+                    <div class="tags">
+                        <span>Flutter</span><span>Dart</span><span>Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit/Nearby_Pay_"
+                           target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">07</div>
+                    <h3>Attendance Tracker</h3>
+                    <p>An application project for tracking attendance records.</p>
+                    <div class="tags">
+                        <span>Web Development</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdnashit/attendance-app"
+                           target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section content-section reveal" id="skills">
+            <p class="eyebrow">WHAT I WORK WITH</p>
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card"><span>01</span><h3>Python</h3></div>
+                <div class="skill-card"><span>02</span><h3>Java</h3></div>
+                <div class="skill-card"><span>03</span><h3>C</h3></div>
+                <div class="skill-card"><span>04</span><h3>HTML &amp; CSS</h3></div>
+                <div class="skill-card"><span>05</span><h3>JavaScript</h3></div>
+                <div class="skill-card"><span>06</span><h3>SQL</h3></div>
+                <div class="skill-card"><span>07</span><h3>Git &amp; GitHub</h3></div>
+                <div class="skill-card"><span>08</span><h3>Flask &amp; Firebase</h3></div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section content-section reveal" id="contact">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">Contact <span>Me</span></h2>
+
+            <p class="contact-intro">
+                Have a project idea or want to connect? Send me a message.
+            </p>
+
+            <form class="contact-form" id="contactForm"
+                  action="https://formspree.io/f/YOUR_FORM_ID"
+                  method="POST">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" rows="5"
+                          placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p id="formStatus" class="form-status" aria-live="polite"></p>
+            </form>
+
+            <p class="contact-socials">
+                <a href="https://github.com/mohdnashit"
+                   target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/mohammed-nashit-a6a728369/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Mohammed Nashit. Built with care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
